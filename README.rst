@@ -5,9 +5,21 @@ Hijax demo
 Documentation
 =============
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+I found this posts: Based on the example found at http://duganchen.ca/single-page-web-app-architecture-done-right and I decided to test it.
+
+The result is a proof of concept of some popular web technologies:
+* Django, my favorite framework. 
+* Hijax (http://en.wikipedia.org/wiki/Hijax). 
+* Mustache templates (via mustache.js)
+* backbone.js & underscore.js.
 
 Test It
 =======
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+run it: ./manage.py runserver
+browse: http://localhost:8000
+
+Requirements 
+============
+
+Django 1.2
