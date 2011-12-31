@@ -1,0 +1,16 @@
+<table class="ui-widget">
+    <thead class="ui-widget-header">
+        <tr>
+            <th>items</th>
+        </tr>
+    </thead>
+    <tbody class="ui-widget-content">
+        {{#items}}
+            <tr>
+                <td>
+                    <a href="/edit/{{id}}">{{item}}</a>
+                </td>
+            </tr>
+        {{/items}}
+    </tbody>
+</table>
