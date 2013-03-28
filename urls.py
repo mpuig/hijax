@@ -11,11 +11,11 @@
 """
 
 from django.conf.urls.defaults import patterns, include, url
-from django.views.generic.simple import redirect_to
+from django.views.generic import RedirectView
 from django.conf import settings
 
 urlpatterns = patterns('',
-    ('^$', redirect_to, {'url': '/items'}),
+    ('^$', RedirectView.as_view(url='/items')),
     ('^items$', 'items.views.items'),
     ('^edit/1$', 'items.views.edit'),
     ('^ajax/items$', 'items.views.items_ajax'),
