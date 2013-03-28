@@ -1,6 +1,10 @@
 ========
-Hijax demo
+Hijax demo, Django 1.5 
 ========
+
+Initial Remark
+==============
+This just updates the example found at https://github.com/mpuig/hijax to be useable with Django 1.5.
 
 Documentation
 =============
@@ -23,4 +27,4 @@ browse: http://localhost:8000
 Requirements 
 ============
 
-Django 1.2
+Django 1.5
